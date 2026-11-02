@@ -1,5 +1,16 @@
 # GPT-6.1 Terra with Microsoft Agent Framework — C# Sample
 
+[![build](https://github.com/taswar/GPT-6-1-Terra-AgentFramework-CSharp-Sample/actions/workflows/dotnet.yml/badge.svg)](https://github.com/taswar/GPT-6-1-Terra-AgentFramework-CSharp-Sample/actions/workflows/dotnet.yml)
+![.NET 10](https://img.shields.io/badge/.NET-10-512BD4)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+
+- 📖 Full walkthrough: [GPT-6.1 Terra for C# Developers](https://taswar.zeytinsoft.com/gpt-6-1-terra-csharp-developers-guide/?utm_source=github&utm_medium=readme&utm_campaign=GPT-6-1-Terra-AgentFramework-CSharp-Sample&utm_content=walkthrough)
+- ⭐ If this sample helps you, star the repo so other .NET developers can find it.
+- 🔁 Related: [GPT-6.1 Terra C# Sample (HttpClient)](https://github.com/taswar/GPT-6-1-Terra-CSharp-Sample), the same agent with hand-written requests
+- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/?utm_source=github&utm_medium=readme&utm_campaign=GPT-6-1-Terra-AgentFramework-CSharp-Sample&utm_content=ai-models-hub)
+- For my free ebook on prompt engineering, see [Prompt Engineering for .NET Developers](https://github.com/taswar/PromptEngineeringForDotNetDevelopers)
+
 A small .NET 10 console application that reviews a PDF supplier invoice using an Azure OpenAI deployment and Microsoft Agent Framework. It sends the invoice to the Responses API, gives the agent a local supplier lookup tool, and receives a typed `InvoiceReview` result.
 
 The default deployment name is `gpt-6.1-terra`. Set `AZURE_OPENAI_DEPLOYMENT` to the name of your own deployment if it differs.
